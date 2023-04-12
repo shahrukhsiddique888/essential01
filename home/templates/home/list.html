@@ -1,0 +1,8 @@
+{% load static %}
+ 
+{% for note in don %}
+ {% comment %} in the for loop that is object context object {% endcomment %}
+
+  <li> {{ note.product }}</li>
+
+{% endfor %}
